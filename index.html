@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container col-md-4 border border-primary mt-5 p-2 px-3">
+        <h3 class="text-center">Word Counter</h3>
+        <p>Type in your eassy and get the total number of words it has...</p>
+        <textarea name="Essay..." id="userEssay"  rows="10" class="form-control" onkeyup="checkLength()"></textarea>
+        <div class="my-2">
+            Total Words: <span id="displayScreen">0</span>
+        </div>
+    </div>
+    
+    <!-- <div id="screen2" class="border border-primary  col-md-4 my-2" style="height: 10dvh;">
+    
+    </div>
+    <button class="btn btn-dark" onclick="previousBtn()">Previous</button> 
+    <button class="btn btn-dark" onclick="nextBtn()">Next</button> -->
+
+    <script>
+      //  let items = ['Apple', 'Mango', 'Orange']
+       // screen2.innerHTML = items [0]
+
+       // function nextBtn() {
+       //     screen2.innerHTML = items[items.indexOf(screen2.innerHTML) + 1]
+        //}
+      
+       // function previousBtn() {
+       //     screen2.innerHTML = items[items.indexOf(screen2.innerHTML) - 1]
+        //}
+
+
+
+       // let items = ['apple', 'mango', 'cashew','tomato']
+        //console.log(typeof (items))
+        //console.log(items[0])
+
+
+
+        //items.unshift('banana')
+        //console.log(items)
+        //items.pop()
+        //items.push('banana')
+        //console.log(items)
+        //console.log(items.slice(1,3))
+        //item.splice(1,1)
+       // items.splice(2,2 ,'watermelon','orange', 'banana')
+        //console.log(items)
+        //items.sort(items)
+
+       // let car = {
+//brand:'Toyota',
+         //   model:'Camry',
+         //   year: '2022',
+         //   color:'blue',
+            //start :function(){
+            //    console.log('The car has started...');
+          //  },
+
+           // stop(){
+            //    console.log('The car has stopped...');
+         //   }
+        //}
+       // console.log(car['model']);
+        //car.start();
+        //car.stop();
+
+
+       // let year = 2022
+
+       // let car2 = {
+        //    brand:'lexus',
+         //   model:'RX350',
+         //   year: '2023',
+        //    color: 'blue',
+
+        //    intro(){
+      //          console.log(`The is a ${this.year} ${this.brand} ${this.model} ${this.color}`);
+       //     }
+
+        //}
+       // car2.intro()
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
